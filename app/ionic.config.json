@@ -1,0 +1,8 @@
+{
+  "name": "summit-l763",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "com.adobe.summit.l763"
+}
