@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-20T22:24:11.301-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/summit-l763/settings/wcm/templates/summit-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Shantanu Narayen"
+        sling:resourceType="summit-l763/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-03-06T21:09:36.315-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-06T21:10:28.670-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    cq:styleIds="[1520390780172]"
+                    jcr:created="{Date}2019-02-20T22:22:02.442-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-02-20T22:22:08.002-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l763/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/shantanu-narayen"
+                    text="Speaker Name Shantanu Narayen Speaker Byline Shantanu Narayen is an Indian American business executive, and the chairman and CEO of Adobe Inc. Prior to this he had been the president and chief operating officer since 2005.[7] He grew up in a Telugu speaking family in Hyderabad, India, the second son of a mother who taught American literature and a father who ran a plastics company. He went to Hyderabad Public School in Hyderabad. Narayen earned a bachelor's degree in electronics and communication engineering from University College of Engineering, Osmania University in India, an MBA from the University of California, Berkeley, and a master's degree in computer science from Bowling Green State University, Ohio. Narayen once represented India in sailing at an Asian Regatta. Speaker Headshot /content/dam/summit-lab-763/speaker-images/shantanu-narayen.jpg Speaker Date of Birth 1962-05-27 01:00"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

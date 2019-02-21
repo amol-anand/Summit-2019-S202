@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5d200988-f7d3-405a-b218-df4659b18dd5">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-3-3"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T20:11:36.450Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-3-3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T20:11:36.451Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>We recognize that Summit is part of a much larger community, and we’re committed to making this an eco-friendly event in whatever ways we can. In addition, The Venetian was awarded a “Gold” designation as a part of TripAdvisor’s “greenleaders” program.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T20:11:36.430Z"
+                question="What is Adobe's commitment to 'going green' at Summit?"
+                question_x0040_LastModified="{Date}2019-01-11T20:11:36.429Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

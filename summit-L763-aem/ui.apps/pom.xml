@@ -78,15 +78,15 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.adobe.acs</groupId>
-            <artifactId>acs-aem-commons-bundle</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.acs</groupId>
-            <artifactId>acs-aem-commons-content</artifactId>
-            <type>content-package</type>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.adobe.acs</groupId>-->
+            <!--<artifactId>acs-aem-commons-bundle</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.adobe.acs</groupId>-->
+            <!--<artifactId>acs-aem-commons-content</artifactId>-->
+            <!--<type>content-package</type>-->
+        <!--</dependency>-->
     </dependencies>
     <build>
         <resources>
@@ -148,11 +148,11 @@
                     </embeddeds>
 
                     <subPackages>
-                        <subPackage>
-                            <groupId>com.adobe.acs</groupId>
-                            <artifactId>acs-aem-commons-content</artifactId>
-                            <filter>true</filter>
-                        </subPackage>
+                        <!--<subPackage>-->
+                            <!--<groupId>com.adobe.acs</groupId>-->
+                            <!--<artifactId>acs-aem-commons-content</artifactId>-->
+                            <!--<filter>true</filter>-->
+                        <!--</subPackage>-->
                         <subPackage>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.all</artifactId>

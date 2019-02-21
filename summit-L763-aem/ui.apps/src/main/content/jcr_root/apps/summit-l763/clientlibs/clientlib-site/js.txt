@@ -1,0 +1,8 @@
+#base=.
+
+site/js/vendor/util.js
+components/header/header.js
+components/navigation/navigation.js
+components/contentfragment/contentfragment.js
+components/carousel/carousel.js
+components/image/image.js

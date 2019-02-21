@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="59b81396-2e44-4ad9-9ec2-b6914108430a">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-2-1"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T19:46:39.038Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-2-1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T19:46:39.038Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>&lt;b>The Venetian | The Palazzo&lt;/b>&lt;br>&#xa;(Venetian) 3355 S Las Vegas Blvd, Las Vegas, NV 89109&lt;br>&#xa;Phone 702-414-1000&lt;br>&#xa;(Palazzo) 3325 S Las Vegas Blvd, Las Vegas, NV 89109&lt;br>&#xa;Phone 702-607-7777&lt;br>&#xa;Special Summit room rate: US$242 (includes resort fee and excludes taxes)&lt;br>&#xa;&lt;br>&#xa;With the exception of children twelve and under staying with an adult, an additional charge of US $50.00 per night will be assessed for each occupant in excess of two.&lt;br>&#xa;&lt;br>&#xa;The discounted hotel blocks will fill quickly, so book your room early. Room rates are based upon availability and special rates expire at midnight Tuesday, February 26, 2019. To take advantage of our discounted negotiated rates, you must book through the Summit registration system.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T19:46:39.024Z"
+                question="What are the Summit hotels for 2018?"
+                question_x0040_LastModified="{Date}2019-01-11T19:46:39.024Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

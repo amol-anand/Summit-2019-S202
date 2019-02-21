@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="37915e4c-f0af-42d6-9f28-e043b060710b">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-2-3"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T20:10:06.686Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-2-3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T20:10:06.686Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>&lt;b>The Venetian | The Palazzo &lt;/b>&lt;/p>&#xa;&lt;p>The resort fee includes unlimited local/toll free calls and in-suite internet access, complimentary daily newspaper, and daily access for two adults to the fitness facility within Canyon Ranch Spa Club.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T20:10:06.669Z"
+                question="What does the resort fee include?"
+                question_x0040_LastModified="{Date}2019-01-11T20:10:06.668Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

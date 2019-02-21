@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5d97b06e-3408-48b0-b03d-31899f051021">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-2-2"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T20:10:17.257Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-2-2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T20:10:17.257Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Yes, discounted rates have been negotiated with The Venetian | The Palazzo and are available only through the registration system. Discounted rates are subject to availability.&lt;/p>&#xa;&lt;p>&lt;b>&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b>&lt;br>&#xa;The room rate of $242 per night excludes taxes but is inclusive of a mandatory $12 resort fee per suite/per night.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T20:10:17.239Z"
+                question="Are discounted rates available at the Summit hotels?"
+                question_x0040_LastModified="{Date}2019-01-11T20:10:17.239Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

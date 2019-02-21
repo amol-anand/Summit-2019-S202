@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="L763 List"
     sling:resourceSuperType="core/wcm/components/list/v2/list"
-    componentGroup="Summit Lab L763"/>
+    componentGroup="Summit.Content"/>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d353d00a-0915-4030-9532-6a6269c09e37">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-3-1"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T19:28:56.892Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-3-1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T19:28:56.892Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>During the conference, business casual attire is appropriate. Plan to bring a jacket for the cool session rooms and cooler evening temperatures.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T19:28:56.787Z"
+                question="How should I dress?"
+                question_x0040_LastModified="{Date}2019-01-11T19:28:56.787Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

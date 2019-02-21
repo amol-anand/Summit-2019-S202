@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="409d7fbe-bae8-4f36-9944-094addfa4706">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-01-11T20:24:52.954Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="faq-3-2"
+        cq:parentPath="/content/dam/summit-lab-763/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-01-11T20:11:17.986Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ-3-2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-01-11T20:11:17.986Z">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>The Scheduler is an online tool available for registered attendees to build your own personalized schedule of sessions and labs. You can access it by signing in on &lt;a href=&quot;https://summit.adobe.com/na/&quot;>summit.adobe.com/na/&lt;/a>. Both sessions and labs fill quickly, so schedule as soon as possible. The Summit Scheduler will be available starting in January 2019.&lt;br>&#xa;&lt;br>&#xa;Onsite note: Space in sessions/labs will be limited. If you have pre-registered for a session or lab, you must arrive three minutes prior to when a session or lab begins to secure your seat. Your enrollment in a session will be validated and scanned at the time of entry. Anyone who is not pre-enrolled may be asked to wait in an onsite wait line.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2019-01-11T20:11:17.969Z"
+                question="What is the Summit Scheduler?"
+                question_x0040_LastModified="{Date}2019-01-11T20:11:17.968Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

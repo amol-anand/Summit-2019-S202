@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="69e7e899-f557-4b28-94f7-884b96625f54">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-02-20T22:27:00.455-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="john-grotzinger"
+        cq:parentPath="/content/dam/summit-lab-763/conference-speaker-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-02-20T19:41:05.301-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="John Grotzinger"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-02-20T19:41:05.301-05:00">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/l763-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>John P. Grotzinger&amp;nbsp;is the Fletcher Jones Professor of Geology at&amp;nbsp;California Institute of Technology&amp;nbsp;and chair of the Division of Geological and Planetary Sciences. His works primarily focus on chemical and physical interactions between life and the environment.&amp;nbsp;In addition to biogeological studies done on Earth, Grotzinger is also active in research into the&amp;nbsp;geology of Mars&amp;nbsp;and has made contributions to&amp;nbsp;NASA's&amp;nbsp;Mars Exploration Program.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2019-02-20T19:41:05.281-05:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2019-02-20T19:41:05.281-05:00"
+                speakerImage="/content/dam/summit-lab-763/speaker-images/john-grotzinger.jpg"
+                speakerImage_x0040_LastModified="{Date}2019-02-20T19:41:05.281-05:00"
+                speakerName="John Grotzinger"
+                speakerName_x0040_LastModified="{Date}2019-02-20T19:41:05.281-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

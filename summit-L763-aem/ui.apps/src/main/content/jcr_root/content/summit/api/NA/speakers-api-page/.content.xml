@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-20T22:26:48.440-05:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-02-20T22:27:00.455-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/summit-l763/settings/wcm/templates/l763-api-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Speakers API Page"
+        jcr:uuid="6e544c02-b542-4198-98fc-5e000ab6ff04"
+        sling:resourceType="weretail/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2018-02-13T21:00:08.465-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <title
+                jcr:created="{Date}2019-02-20T22:26:48.438-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:26:48.438-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:title="Adobe Summit 2019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/title"/>
+            <text
+                    jcr:created="{Date}2019-02-21T00:09:43.253-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-02-21T00:10:01.824-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l763/components/content/text"
+                    text="&lt;p>This is a list of Adobe Summit 2019 Featured Speakers&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            <contentfragment
+                jcr:created="{Date}2019-02-20T22:25:37.812-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:25:40.429-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/shantanu-narayen"
+                text="Speaker Name Shantanu Narayen Speaker Byline Shantanu Narayen is an Indian American business executive, and the chairman and CEO of Adobe Inc. Prior to this he had been the president and chief operating officer since 2005.[7] He grew up in a Telugu speaking family in Hyderabad, India, the second son of a mother who taught American literature and a father who ran a plastics company. He went to Hyderabad Public School in Hyderabad. Narayen earned a bachelor's degree in electronics and communication engineering from University College of Engineering, Osmania University in India, an MBA from the University of California, Berkeley, and a master's degree in computer science from Bowling Green State University, Ohio. Narayen once represented India in sailing at an Asian Regatta. Speaker Headshot /content/dam/summit-lab-763/speaker-images/shantanu-narayen.jpg Speaker Date of Birth 1962-05-27 01:00"/>
+            <contentfragment_395829166
+                jcr:created="{Date}2019-02-20T22:26:10.793-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:26:12.662-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/satya-nadella"
+                text="Speaker Name Satya Nadella Speaker Byline Satya Narayana Nadella is an American business executive from India. He is the Chief Executive Officer (CEO) of Microsoft, succeeding Steve Ballmer in 2014. Before becoming CEO, he was Executive Vice President of Microsoft's cloud and enterprise group, responsible for building and running the company's computing platforms, developer tools and cloud computing services. He is an alumnus of Manipal Academy of Higher Education. Speaker Headshot /content/dam/summit-lab-763/speaker-images/satya-nadella.jpg Speaker Date of Birth 1967-08-19 01:00"/>
+            <contentfragment_63692138
+                jcr:created="{Date}2019-02-20T22:25:44.131-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:25:45.947-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/drew-bees"
+                text="Speaker Name Drew Brees Speaker Byline Drew Christopher Brees is an American football quarterback for the New Orleans Saints of the National Football League (NFL). After a successful college football career at Purdue University, he was chosen by the San Diego Chargers with the first pick in the second round of the 2001 NFL Draft. He left college as one of the most decorated players in Purdue and Big Ten Conference history, establishing two NCAA records, 13 Big Ten Conference records, and 19 Purdue University records. As of 2018, he remains the Big Ten record-holder in several passing categories, including completions (1,026), attempts (1,678), and yards (11,792). For his many career accomplishments and records, Brees has been hailed as one of the greatest passers of all time. Speaker Headshot /content/dam/summit-lab-763/speaker-images/drew-brees.jpg Speaker Date of Birth 1979-01-15 01:00"/>
+            <contentfragment_73361505
+                jcr:created="{Date}2019-02-20T22:25:50.791-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:25:53.305-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/cathy-hackl"
+                text="Speaker Name Cathy Hackl Speaker Byline Cathy Hackl is one of the most sought-after keynote technology speakers in the world. Considered one of the top women in augmented reality and virtual reality by media like NBC and VentureBeat, Cathy works at the intersection of future technology and storytelling bringing augmented reality, virtual reality and mixed reality to audiences across the globe and across industries. She’s a professional futurist working on the future of work, future of marketing and future of connection. As an immersive expert, she has spoken about AR, VR and the future of business in more than 12 countries, including memorable talks at Twitter’s HQ in San Francisco, Facebook’s HQ in Menlo Park and Sony’s HQ in San Diego. She has been featured in media outlets like Mic, CNN, Silicon Beat, Entrepreneur, CMO.com, Forbes, VentureBeat and Mashable. Speaker Headshot /content/dam/summit-lab-763/speaker-images/cathy-hackl.jpg Speaker Date of Birth 2018-03-29 00:00"/>
+            <contentfragment_996573765
+                jcr:created="{Date}2019-02-20T22:25:57.471-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:25:59.749-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/jay-baer"
+                text="Speaker Name Jay Baer Speaker Byline Jay Baer, CSP, CPAE has spent 25 years in digital marketing and customer experience, consulting for more than 700 companies during that period, including 34 of the FORTUNE 500. His current firm – Convince &amp;Convert – provides word of mouth, digital marketing, and customer experience advice and counsel to some of the world’s most important brands. Speaker Headshot /content/dam/summit-lab-763/speaker-images/jay-baer.jpg Speaker Date of Birth 2018-03-29 00:00"/>
+            <contentfragment_2021090429
+                jcr:created="{Date}2019-02-20T22:26:04.225-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-20T22:26:06.739-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l763/components/content/contentfragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/summit-lab-763/conference-speaker-fragments/john-grotzinger"
+                text="Speaker Name John Grotzinger Speaker Byline John P. Grotzinger is the Fletcher Jones Professor of Geology at California Institute of Technology and chair of the Division of Geological and Planetary Sciences. His works primarily focus on chemical and physical interactions between life and the environment. In addition to biogeological studies done on Earth, Grotzinger is also active in research into the geology of Mars and has made contributions to NASA's Mars Exploration Program. Speaker Headshot /content/dam/summit-lab-763/speaker-images/john-grotzinger.jpg Speaker Date of Birth 2018-03-29 00:00"/>
+        </root>
+    </jcr:content>
+</jcr:root>

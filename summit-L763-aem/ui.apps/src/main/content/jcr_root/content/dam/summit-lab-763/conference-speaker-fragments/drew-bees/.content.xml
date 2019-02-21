@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fb961bfa-4865-4841-ab41-ce303bb84db4">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-02-20T22:27:00.455-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="drew-bees"
+        cq:parentPath="/content/dam/summit-lab-763/conference-speaker-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-02-20T19:41:47.323-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Drew Bees"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-02-20T19:41:47.324-05:00">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/l763-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Drew Christopher Brees&amp;nbsp;is an&amp;nbsp;American football&amp;nbsp;quarterback&amp;nbsp;for the&amp;nbsp;New Orleans Saints&amp;nbsp;of the&amp;nbsp;National Football League&amp;nbsp;(NFL). After a successful&amp;nbsp;college football&amp;nbsp;career at&amp;nbsp;Purdue University, he was chosen by the&amp;nbsp;San Diego Chargers&amp;nbsp;with the first pick in the second round of the&amp;nbsp;2001 NFL Draft. He left college as one of the most decorated players in Purdue and&amp;nbsp;Big Ten Conference&amp;nbsp;history, establishing two NCAA records, 13 Big Ten Conference records, and 19 Purdue University records. As of 2018, he remains the Big Ten record-holder in several passing categories, including completions (1,026), attempts (1,678), and yards (11,792). For his many career accomplishments and records, Brees has been hailed as one of the greatest passers of all time.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2019-02-20T19:41:47.308-05:00"
+                speakerDOB="{Date}1979-01-15T01:00:00.000-05:00"
+                speakerDOB_x0040_LastModified="{Date}2019-02-20T19:41:47.308-05:00"
+                speakerImage="/content/dam/summit-lab-763/speaker-images/drew-brees.jpg"
+                speakerImage_x0040_LastModified="{Date}2019-02-20T19:41:47.308-05:00"
+                speakerName="Drew Brees"
+                speakerName_x0040_LastModified="{Date}2019-02-20T19:41:47.308-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

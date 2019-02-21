@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8a2ad096-4976-4875-adb1-9d91c6aa804e">
+    <jcr:content
+        cq:lastReplicated="{Date}2019-02-20T22:27:00.455-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="jay-baer"
+        cq:parentPath="/content/dam/summit-lab-763/conference-speaker-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2019-02-20T19:41:15.475-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Jay Baer"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2019-02-20T19:41:15.476-05:00">
+        <data
+            cq:model="/conf/summit-l763/settings/dam/cfm/models/l763-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Jay Baer, CSP, CPAE has spent 25 years in digital marketing and customer experience, consulting for more than 700 companies during that period, including 34 of the FORTUNE 500. His current firm – Convince&amp;nbsp;&amp;amp;Convert – provides word of mouth, digital marketing, and customer experience advice and counsel to some of the world’s most important brands.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2019-02-20T19:41:15.453-05:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2019-02-20T19:41:15.454-05:00"
+                speakerImage="/content/dam/summit-lab-763/speaker-images/jay-baer.jpg"
+                speakerImage_x0040_LastModified="{Date}2019-02-20T19:41:15.453-05:00"
+                speakerName="Jay Baer"
+                speakerName_x0040_LastModified="{Date}2019-02-20T19:41:15.453-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

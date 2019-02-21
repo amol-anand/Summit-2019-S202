@@ -1,2 +1,4 @@
 <%@page session="false"%><%
-%><%@include file="/apps/acs-commons/components/utilities/errorpagehandler/404.jsp" %>
+%>
+Page Not Found.
+<%@include file="/apps/acs-commons/components/utilities/errorpagehandler/404.jsp" %>

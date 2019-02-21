@@ -157,19 +157,19 @@
                 <version>3.0.0</version>
                 <scope>provided</scope>
             </dependency>
-            <dependency>
-                <groupId>com.adobe.acs</groupId>
-                <artifactId>acs-aem-commons-bundle</artifactId>
-                <version>3.8.4</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.adobe.acs</groupId>
-                <artifactId>acs-aem-commons-content</artifactId>
-                <version>3.8.4</version>
-                <scope>provided</scope>
-                <type>content-package</type>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.adobe.acs</groupId>-->
+                <!--<artifactId>acs-aem-commons-bundle</artifactId>-->
+                <!--<version>4.0.0</version>-->
+                <!--<scope>provided</scope>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.adobe.acs</groupId>-->
+                <!--<artifactId>acs-aem-commons-content</artifactId>-->
+                <!--<version>4.0.0</version>-->
+                <!--<scope>provided</scope>-->
+                <!--<type>content-package</type>-->
+            <!--</dependency>-->
             <dependency>
                 <groupId>javax.inject</groupId>
                 <artifactId>javax.inject</artifactId>

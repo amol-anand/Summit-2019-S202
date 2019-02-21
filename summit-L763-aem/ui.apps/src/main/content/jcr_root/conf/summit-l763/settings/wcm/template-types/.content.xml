@@ -3,4 +3,5 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <empty-page/>
+    <summit-empty-page/>
 </jcr:root>
