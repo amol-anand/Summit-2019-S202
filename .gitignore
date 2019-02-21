@@ -82,3 +82,9 @@ buildNumber.properties
 
 ## Angular app
 /ui.apps/src/main/content/jcr_root/apps/wknd-events/clientlibs/angular-app
+
+### Ionic app
+app/www
+app/.sourcemaps
+app/node_modules
+app/platforms
