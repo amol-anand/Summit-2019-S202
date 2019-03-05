@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8dba3284-8597-4a09-b91b-e62d48bc46a3">
+    <jcr:content
+        cq:name="edm-weekend"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-10T04:26:34.332-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="EDM Weekend"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-10T04:26:34.332-06:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-10T04:26:34.317-06:00"
+                wkndArtistName="Carl Harris"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-10T04:26:34.317-06:00"
+                wkndEventAddress="[1001 Rose Bowl Dr,Pasadena\, CA 91103]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-10T04:26:34.316-06:00"
+                wkndEventCity="Los Angeles"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-10T04:26:34.315-06:00"
+                wkndEventDate="{Date}2018-09-11T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-10T04:26:34.315-06:00"
+                wkndEventDescription="&lt;p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna.&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-10T04:26:34.314-06:00"
+                wkndEventImage="/content/dam/wknd-events/jacob-morch-272617-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-10T04:26:34.316-06:00"
+                wkndEventTimes="[10:00 PM]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-10T04:26:34.316-06:00"
+                wkndEventTitle="EDM Weekend"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-10T04:26:34.314-06:00"
+                wkndEventType="[wknd-event:event-type/music]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-10T04:26:34.315-06:00"
+                wkndTicketPrice="{Double}75.0"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-10T04:26:34.316-06:00"
+                wkndVenueName="Rose Bowl"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-10T04:26:34.317-06:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-10T04:26:34.317-06:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

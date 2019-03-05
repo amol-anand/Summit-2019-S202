@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="126b8975-5a88-4bb7-8308-c78f468dd794">
+    <jcr:content
+        cq:name="smoke-&amp;-mirrors"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-03T17:07:41.425-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Smoke &amp; Mirrors"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-03T17:07:41.426-04:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-03T17:07:41.409-04:00"
+                wkndArtistName="Arthur D. Anna"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-03T17:07:41.408-04:00"
+                wkndEventAddress="[Trafalgar Square,London WC2N 5DN\, UK]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-03T17:07:41.408-04:00"
+                wkndEventCity="London"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-03T17:07:41.407-04:00"
+                wkndEventDate="{Date}2018-09-14T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-03T17:07:41.406-04:00"
+                wkndEventDescription="&lt;p>Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-03T17:07:41.406-04:00"
+                wkndEventImage="/content/dam/wknd-events/michael-olsen-411871-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-03T17:07:41.407-04:00"
+                wkndEventTimes="[9:00 AM - 5:00 PM (Mon. - Fri),12:00 PM - 4:00 PM (Sa),Closed Sunday]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-03T17:07:41.408-04:00"
+                wkndEventTitle="Smoke &amp; Mirrors"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-03T17:07:41.406-04:00"
+                wkndEventType="[wknd-event:event-type/art]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-03T17:07:41.407-04:00"
+                wkndTicketPrice="{Double}99.0"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-03T17:07:41.408-04:00"
+                wkndVenueName="The National Gallery"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-03T17:07:41.409-04:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-03T17:07:41.409-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

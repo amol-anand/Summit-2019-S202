@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9106f32b-3f38-4a11-883f-c15bffda0567">
+    <jcr:content
+        cq:name="pop-architecture"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-03T17:31:53.418-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Pop Architecture"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-03T17:31:53.418-04:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-03T17:31:53.403-04:00"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-03T17:31:53.403-04:00"
+                wkndEventAddress="[\0]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-03T17:31:53.403-04:00"
+                wkndEventCity="New York"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-03T17:31:53.401-04:00"
+                wkndEventDate="{Date}2018-09-16T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-03T17:31:53.401-04:00"
+                wkndEventDescription="&lt;p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna.&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-03T17:31:53.401-04:00"
+                wkndEventImage="/content/dam/wknd-events/beasty-356328-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-03T17:31:53.402-04:00"
+                wkndEventTimes="[M-F 9:00 AM - 5:00 PM]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-03T17:31:53.403-04:00"
+                wkndEventTitle="Pop Architectures"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-03T17:31:53.401-04:00"
+                wkndEventType="[wknd-event:event-type/photography]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-03T17:31:53.402-04:00"
+                wkndTicketPrice="{Double}22.0"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-03T17:31:53.402-04:00"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-03T17:31:53.404-04:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-03T17:31:53.404-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

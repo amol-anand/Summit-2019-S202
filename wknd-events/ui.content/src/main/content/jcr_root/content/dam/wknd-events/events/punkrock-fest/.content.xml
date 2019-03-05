@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1ed6ec0a-aab9-4a91-8f4f-c0b8d1b1e361">
+    <jcr:content
+        cq:name="punkrock-fest"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-10T04:26:14.461-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Punkrock Fest"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-10T04:26:14.462-06:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-10T04:26:14.448-06:00"
+                wkndArtistName="Alt Punk"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-10T04:26:14.448-06:00"
+                wkndEventAddress="[1179 Nippon Budokan,Chiyoda\, Tokyo 102-8321]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-10T04:26:14.448-06:00"
+                wkndEventAdress="&lt;p>MCI Center&lt;br>&#xa;34 Clover Ln.&lt;br>&#xa;Pittsuburgh, PA 3710&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventAdress_x0040_ContentType="text/html"
+                wkndEventAdress_x0040_LastModified="{Date}2018-09-02T16:45:07.138-04:00"
+                wkndEventCity="Tokyo"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-10T04:26:14.446-06:00"
+                wkndEventDate="{Date}2018-09-12T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-10T04:26:14.446-06:00"
+                wkndEventDescription="&lt;p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna.&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-10T04:26:14.445-06:00"
+                wkndEventImage="/content/dam/wknd-events/josh-rose-506979-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-10T04:26:14.447-06:00"
+                wkndEventTimes="[9:30 PM]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-10T04:26:14.448-06:00"
+                wkndEventTitle="Punkrock Fest"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-10T04:26:14.445-06:00"
+                wkndEventType="[wknd-event:event-type/music]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-10T04:26:14.446-06:00"
+                wkndTicketPrice="{Double}16.0"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-10T04:26:14.447-06:00"
+                wkndVenueName="Tokyo Arena"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-10T04:26:14.449-06:00"
+                wkndVenuePage="/content/wknd-events/react/home/punkrock-fest"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-10T04:26:14.449-06:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

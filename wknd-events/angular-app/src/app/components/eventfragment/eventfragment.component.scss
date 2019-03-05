@@ -1,0 +1,118 @@
+@import '~src/styles/shared';
+
+:host-context {
+  display: block;
+
+  @include component-padding();
+}
+
+.event-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.event-container {
+  width: 100%;
+  margin: 50px 50px;
+}
+
+.event-image-title-container {
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+.event-image {
+  object-fit: cover;
+  object-position: center;
+  height: 500px;
+}
+
+.event-title {
+
+  height: 45px;
+  width: 80%;
+
+  left: 10%;
+  top: -25px;
+
+  position: absolute;
+  background-color: $color-black;
+  opacity: 0.85;
+  color: $color-white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: $font-weight-bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  @include drop-shadow();
+}
+
+.event-title-text {
+  color: $color-white;
+  font-size: $h2-font-size;
+  font-weight: $font-weight-semi-bold;
+  line-height: 2rem;
+}
+
+.event-two-col-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.event-one-col {
+  margin: 2px;
+  width: 350px;
+  text-align: center;
+}
+
+.event-one-col > div {
+  color: $color-black;
+  font-weight: $font-weight-semi-bold;
+  font-size: $h2-font-size;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.event-one-col > span {
+  font-size: $h4-font-size;
+  color: $color-dark-gray
+}
+
+.event-one-col > ul {
+  list-style: none;
+  margin-top: 5px;
+  color: $color-gray;
+}
+
+.event-one-col-container {
+  width: 100%;
+}
+
+.event-one-col-container > .event-what-title {
+  color: $color-black;
+  font-weight: $font-weight-semi-bold;
+  font-size: $h2-font-size;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}

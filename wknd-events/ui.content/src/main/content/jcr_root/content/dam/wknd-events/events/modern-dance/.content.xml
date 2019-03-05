@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9f509514-3c8e-4a91-be8d-80793db0627d">
+    <jcr:content
+        cq:name="modern-dance"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-10T15:21:56.876-06:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Modern Dance"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-10T15:21:56.876-06:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-10T15:21:56.811-06:00"
+                wkndArtistName="Modern Dance Company"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-10T15:21:56.811-06:00"
+                wkndEventAddress="[621 Madison Square Ave.,New York\, NY 20004]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-10T15:21:56.810-06:00"
+                wkndEventCity="New York"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-10T15:21:56.809-06:00"
+                wkndEventDate="{Date}2018-09-11T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-10T15:21:56.809-06:00"
+                wkndEventDescription="&lt;p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna.&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-10T15:21:56.808-06:00"
+                wkndEventImage="/content/dam/wknd-events/craig-whitehead-253949-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-10T15:21:56.810-06:00"
+                wkndEventTimes="[7:30pm,9:30pm]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-10T15:21:56.810-06:00"
+                wkndEventTitle="Dance, Dance"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-10T15:21:56.808-06:00"
+                wkndEventType="[wknd-event:event-type/theater]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-10T15:21:56.809-06:00"
+                wkndTicketPrice="{Double}64.0"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-10T15:21:56.810-06:00"
+                wkndVenueName="Madison Square Garden"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-10T15:21:56.811-06:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-10T15:21:56.811-06:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

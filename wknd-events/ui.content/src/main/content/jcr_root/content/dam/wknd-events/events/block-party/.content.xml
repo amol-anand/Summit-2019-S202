@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2264d964-4370-49e4-a258-9101d2f2c424">
+    <jcr:content
+        cq:name="block-party"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-03T22:13:37.069-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Block Party"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-03T22:13:37.069-04:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-03T22:13:37.049-04:00"
+                wkndArtistName="Associated Artists"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-03T22:13:37.049-04:00"
+                wkndEventAddress="[6 W 25th St,New York\, NY 10010]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-03T22:13:37.049-04:00"
+                wkndEventCity="New York"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-03T22:13:37.048-04:00"
+                wkndEventDate="{Date}2018-09-15T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-03T22:13:37.048-04:00"
+                wkndEventDescription="&lt;p>Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-03T22:13:37.047-04:00"
+                wkndEventImage="/content/dam/wknd-events/luke-matthews-224969-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-03T22:13:37.048-04:00"
+                wkndEventTimes="[3:30 PM - Midnight]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-03T22:13:37.049-04:00"
+                wkndEventTitle="Block Party"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-03T22:13:37.047-04:00"
+                wkndEventType="[wknd-event:event-type/music]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-03T22:13:37.048-04:00"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-03T22:13:37.048-04:00"
+                wkndVenueName="Madison Square Park"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-03T22:13:37.050-04:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-03T22:13:37.050-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

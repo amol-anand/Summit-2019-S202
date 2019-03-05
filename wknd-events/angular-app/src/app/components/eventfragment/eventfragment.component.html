@@ -1,0 +1,30 @@
+<div *ngIf="event" class="event-details">
+    <div class="event-container">
+        <div class="event-image-title-container">
+            <img [src]="event.imageUrl" class="event-image" />
+            <span class="event-title">
+                <span class="event-title-text">{{ event.title }}</span>
+            </span>
+        </div>
+        <div class="event-two-col-container">
+            <div class="event-one-col">
+                <div>WHERE</div>
+                <span>{{ event.venueName }}</span>
+                <ul *ngIf="event.eventAddress && event.eventAddress.length > 0">
+                    <li *ngFor="let eventAddress of event.eventAddress">{{ eventAddress }}</li>
+                </ul>
+            </div>
+            <div class="event-one-col">
+                <div>WHEN</div>
+                <span>{{ event.eventDate | date: 'longDate' }}</span>
+                <ul *ngIf="event.eventTimes && event.eventTimes.length > 0">
+                    <li *ngFor="let eventTime of event.eventTimes">{{ eventTime }}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="event-one-col-container">
+            <div class="event-what-title">WHAT</div>
+            <div class="event-description" [innerHTML]="event.description"></div>
+        </div>
+    </div>
+</div>

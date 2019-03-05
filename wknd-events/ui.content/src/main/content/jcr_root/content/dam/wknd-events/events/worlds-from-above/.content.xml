@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="50b0e09d-0cbb-4a2f-8ccd-9771bef3ff65">
+    <jcr:content
+        cq:name="worlds-from-above"
+        cq:parentPath="/content/dam/wknd-events/en/events"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-09-03T22:02:19.634-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Worlds from above"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-09-03T22:02:19.634-04:00">
+        <data
+            cq:model="/conf/wknd-events/settings/dam/cfm/models/wknd-event"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                wkndArtistBio_x0040_LastModified="{Date}2018-09-03T22:02:19.615-04:00"
+                wkndArtistName="J.R. Archer"
+                wkndArtistName_x0040_LastModified="{Date}2018-09-03T22:02:19.615-04:00"
+                wkndEventAddress="[150 London Wall,London EC2Y 5HN\, UK]"
+                wkndEventAddress_x0040_LastModified="{Date}2018-09-03T22:02:19.615-04:00"
+                wkndEventCity="London"
+                wkndEventCity_x0040_LastModified="{Date}2018-09-03T22:02:19.613-04:00"
+                wkndEventDate="{Date}2018-09-20T00:00:00.000-04:00"
+                wkndEventDate_x0040_LastModified="{Date}2018-09-03T22:02:19.613-04:00"
+                wkndEventDescription="&lt;p>Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna.&amp;nbsp;&lt;/p>&#xa;"
+                wkndEventDescription_x0040_ContentType="text/html"
+                wkndEventDescription_x0040_LastModified="{Date}2018-09-03T22:02:19.613-04:00"
+                wkndEventImage="/content/dam/wknd-events/faisal-latif-713461-unsplash.jpg"
+                wkndEventImage_x0040_LastModified="{Date}2018-09-03T22:02:19.614-04:00"
+                wkndEventTimes="[12:00 PM - 4:30 PM]"
+                wkndEventTimes_x0040_LastModified="{Date}2018-09-03T22:02:19.615-04:00"
+                wkndEventTitle="Worlds from above"
+                wkndEventTitle_x0040_LastModified="{Date}2018-09-03T22:02:19.612-04:00"
+                wkndEventType="[wknd-event:event-type/photography]"
+                wkndEventType_x0040_LastModified="{Date}2018-09-03T22:02:19.614-04:00"
+                wkndTicketPrice_x0040_LastModified="{Date}2018-09-03T22:02:19.614-04:00"
+                wkndVenueName="Museum of London"
+                wkndVenueName_x0040_LastModified="{Date}2018-09-03T22:02:19.616-04:00"
+                wkndVenuePage_x0040_LastModified="{Date}2018-09-03T22:02:19.616-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,16 @@
+<ul *ngIf="speakers.length > 0" class="events">
+    <li *ngFor="let speaker of speakers" class="event">
+
+        <div class="event__image-link">
+            <img [src]="speaker.speakerImage" class="event__image" />
+
+            <span class="event__date">
+                <div class="event__date-text">{{ speaker.speakerDOB | date : 'yy' }}</div>
+                <div class="event__date-text--secondary">{{ speaker.speakerDOB | date : 'MMM' }}</div>
+            </span>
+        </div>
+
+        <span class="event__title">{{ speaker.speakerName }}</span>
+        <!--<span class="event__description">{{ speaker.speakerByline }}</span>-->
+    </li>
+</ul>
