@@ -955,7 +955,7 @@ var PageComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ul *ngIf=\"speakers.length > 0\" class=\"events\">\n    <li *ngFor=\"let speaker of speakers\" class=\"event\">\n\n        <div class=\"event__image-link\">\n            <img [src]=\"speaker.speakerImage\" class=\"event__image\" />\n\n            <span class=\"event__date\">\n                <div class=\"event__date-text\">{{ speaker.speakerDOB | date : 'yy' }}</div>\n                <div class=\"event__date-text--secondary\">{{ speaker.speakerDOB | date : 'MMM' }}</div>\n            </span>\n        </div>\n\n        <span class=\"event__title\">{{ speaker.speakerName }}</span>\n        <!--<span class=\"event__description\">{{ speaker.speakerByline }}</span>-->\n    </li>\n</ul>"
+module.exports = "<ul *ngIf=\"speakers?.length > 0\" class=\"events\">\n    <li *ngFor=\"let speaker of speakers\" class=\"event\">\n\n        <div class=\"event__image-link\">\n            <img [src]=\"speaker.speakerImage\" class=\"event__image\" />\n\n            <span class=\"event__date\">\n                <div class=\"event__date-text\">{{ speaker.speakerDOB | date : 'yy' }}</div>\n                <div class=\"event__date-text--secondary\">{{ speaker.speakerDOB | date : 'MMM' }}</div>\n            </span>\n        </div>\n\n        <span class=\"event__title\">{{ speaker.speakerName }}</span>\n        <!--<span class=\"event__description\">{{ speaker.speakerByline }}</span>-->\n    </li>\n</ul>"
 
 /***/ }),
 
