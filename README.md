@@ -1,39 +1,26 @@
 
-# Headless Architecture with Adobe Experience Manager
+# Summit 2019 Session S202
 
-## Table of Contents
-
-* [Lab Overview](/README.md#lab-overview)
-* [Lesson 0 - Software Installation](/lessons/lesson-0.md)
-* [Lesson 1 - Content Fragments](/lessons/lesson-1.md)
-* [Lesson 2 - Assets HTTP API](/lessons/lesson-2.md)
-* [Lesson 3 - Sling Model Exporter](/lessons/lesson-3.md)
-* [Next Steps](/README.md#next-steps)
-* [Appendix](/README.md#Appendix)
-
-## Lab Overview
-
-In this lab we will explore the myriad ways Experience Manager can expose its content in a headless fashion. You will learn best practices, and get guidance on which approach is appropriate based on context.
-
-### Key Takeaways
-
-* Learn headless use cases for Content Fragments and Content Services
-* Learn how to create Content Fragments from a Content Fragment Model.
-* Learn the Assets REST APIs for Content & Experience Fragments
-* Leverage features in Content & Experience Fragments, and Sling Model Exporter
-
-### Prerequisites
-
-* Adobe Experience Manager 6.5 M3
-* Node.js
-* PhoneGap
-* Ionic
-* Maven (v3.5)
+Instructions to build:
 
 
-## Next Steps
+Build to AEM Author:
+1. `cd summit-L763-aem`
+2. `mvn -PautoInstallPackage clean install `
+3. `cd wknd-events`
+4. `mvn -PautoInstallPackage clean install `
+5. Install packages from 'packages' folder
 
-Look for new HelpX and Tutorials on updates to the AEM Assets REST API!
+Build to AEM Publish:
+1. `cd summit-L763-aem`
+2. `mvn -PautoInstallPackagePublish clean install `
+3. `cd wknd-events`
+4. `mvn -PautoInstallPackagePublish clean install `
+5. Install packages from 'packages' folder
+
+Run Ionic Mobile app:
+1. `cd app`
+2. `ionic serve --lab`
 
 ## Appendix
 
